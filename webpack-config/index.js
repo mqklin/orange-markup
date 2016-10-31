@@ -7,6 +7,3 @@ module.exports = merge(
   process.env.NODE_ENV === 'production' ? prod : dev,
   common
 );
-
-// RegExp.prototype.toJSON = RegExp.prototype.toString;
-// console.log(JSON.stringify(module.exports, null, 2));

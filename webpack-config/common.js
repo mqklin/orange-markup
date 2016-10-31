@@ -20,6 +20,10 @@ module.exports = {
         test: /\.css$/,
         loaders: ['style', 'css'],
       },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        loader: 'url',
+      },
     ],
     noParse: [/moment.js/],
   },

@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  align-items: center;
+  color: #FF6500;
+  font-family: OpenSans;
+  font-size: 18px;
+  .el {
+    cursor: pointer;
+    &:first-of-type {
+      margin-left: 15%;
+      .logo {
+        background: url('./logo.svg');
+        width: 50px;
+        height: 49px;
+      }
+    }
+    &:not(:first-of-type) {
+      white-space: nowrap;
+      padding: 28px 0;
+      border-bottom: 4px solid black;
+    }
+    &:nth-child(2) {
+      margin-left: 81px;
+    }
+    &:nth-child(n+3) {
+      margin-left: 90px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.root {
+  .header {
+    height: 80px;
+  }
+  .page {
+    height: calc(100vh - 80px);
+  }
+}
