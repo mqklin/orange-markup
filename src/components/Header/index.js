@@ -11,8 +11,8 @@ class Header extends Component {
         </div>
         <a className={classNames(styles.el, styles.link)} href="#main">Главная</a>
         <a className={classNames(styles.el, styles.link)} href="#description">Описание</a>
-        <a className={classNames(styles.el, styles.link)}>Полезные свойства</a>
-        <a className={classNames(styles.el, styles.link)}>Ваше мнение</a>
+        <a className={classNames(styles.el, styles.link)} href="#features">Полезные свойства</a>
+        <a className={classNames(styles.el, styles.link)} href="#opinion">Ваше мнение</a>
       </div>
     );
   }
