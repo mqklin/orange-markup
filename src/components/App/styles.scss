@@ -1,8 +1,14 @@
 .root {
   .header {
     height: 80px;
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 100500;
+    width: 100%;
   }
-  .page {
-    height: calc(100vh - 80px);
+  .main {
+    margin-top: 80px;
+    height: 100vh;
   }
 }

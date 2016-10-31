@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './styles.scss';
 import classNames from 'classnames';
-import { Header, Description } from 'components';
+import { Header, Main, Description } from 'components';
 
 class App extends Component {
   render() {
@@ -10,7 +10,10 @@ class App extends Component {
         <div className={styles.header}>
           <Header />
         </div>
-        <div className={styles.page}>
+        <div className={styles.main}>
+          <Main />
+        </div>
+        <div>
           <Description />
         </div>
       </div>

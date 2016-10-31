@@ -7,9 +7,9 @@
     <g id="Markup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
         <g id="Tablet" transform="translate(-282.000000, -767.000000)">
             <g id="separator" transform="translate(283.000000, 767.000000)">
-                <path d="M0.5,12 L84.5,12" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <path d="M117.5,12 L201.5,12" id="Line-Copy-3" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <path d="M100.5,19 C104.089851,19 107,16.0898509 107,12.5 C107,8.91014913 100.5,0.490590553 100.5,0.490590553 C100.5,0.490590553 94,8.91014913 94,12.5 C94,16.0898509 96.9101491,19 100.5,19 Z" id="Oval" fill="#000000"></path>
+                <path d="M0.5,12 L84.5,12" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M117.5,12 L201.5,12" id="Line-Copy-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M100.5,19 C104.089851,19 107,16.0898509 107,12.5 C107,8.91014913 100.5,0.490590553 100.5,0.490590553 C100.5,0.490590553 94,8.91014913 94,12.5 C94,16.0898509 96.9101491,19 100.5,19 Z" id="Oval" fill="#FFFFFF"></path>
             </g>
         </g>
     </g>
